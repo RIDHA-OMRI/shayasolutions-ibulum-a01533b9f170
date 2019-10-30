@@ -1,0 +1,4 @@
+﻿Enable-Migrations -ContextTypeName ApplicationDbContext
+Add-Migration -ConfigurationTypeName ibulum.Migrations.Configuration -n "update data and seed file"
+Update-Database -ConfigurationTypeName iBulum.Migrations.Configuration
+
