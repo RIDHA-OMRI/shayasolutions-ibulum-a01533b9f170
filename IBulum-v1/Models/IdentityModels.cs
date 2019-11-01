@@ -48,5 +48,6 @@ namespace IBulum_v1.Models
         public DbSet<TimeReport> TimeReports { get; set; }
 
 
+
     }
 }
